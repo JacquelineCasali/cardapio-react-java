@@ -3,8 +3,8 @@
 Este Projeto é meu portifólio
 
 ## Imgem e Video
-![Video_2023-09-08_164223](/portifolio/src/assets/Video_2023-09-08_164223.gif)
 
+![Video_2023-09-08_164223](https://github.com/JacquelineCasali/portifolio/assets/103325619/62973da8-495f-4737-a27e-e7ffc99b30de)
 
 ## Site do Projeto
 
@@ -12,7 +12,7 @@ Este Projeto é meu portifólio
 
 ## Repositorio do Projeto
 
-https://github.com/JacquelineCasali/portifolio.git (push)
+https://github.com/JacquelineCasali/portifolio.git
 
 ## Instalação
 
