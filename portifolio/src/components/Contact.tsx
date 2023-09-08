@@ -1,7 +1,7 @@
 import { FormEvent, useRef, useState } from "react"
 import emailjs from "@emailjs/browser"
 import { FaSpinner } from "react-icons/fa"
-import Sucesso from '../components/sucesso';
+import Sucesso from '../components/Sucesso';
 import Error from "../components/Error";
 export default function Contact() {
     const form = useRef<HTMLFormElement>(null)
@@ -139,7 +139,7 @@ export default function Contact() {
           </button>
         
       
-          {/* {success &&  <Sucesso/> } */}
+        
 
           {error && <Error/>}
 
