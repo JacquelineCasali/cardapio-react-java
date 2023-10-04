@@ -60,7 +60,7 @@ export default function Contact() {
          </div>
 
     {/* <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm"> */}
-    <div className="py-10 px-32">
+    <div className="py-10 px-5">
      
     <form ref={form} onSubmit={sendEmail}>
     <div className=" flex flex-col md:flex-row">

@@ -13,16 +13,6 @@ export default function Projects() {
     },
     
   
-//     {
-//         title: "Formulario de Cartão",
-//         description: "Descrição do projeto 2",
-//         image:
-//         "https://i.ibb.co/Tcs9hYf/ca.png[/img][/url]"
-// ,
-//         link: "https://cartao-credito-one.vercel.app/",
-      
-   
-//       },
       {
         title: "Cripto Moedas",
         description: "Descrição do projeto 3",
@@ -55,11 +45,8 @@ export default function Projects() {
         title: "CRUD Pet",
         description: "Buscar cep auto preenche o endereço",
         image: "https://i.ibb.co/Wv50XC1/Video-2023-06-15-210440.gif[/img][/url]" ,
-       
-
         link: "https://front-back-petshop.vercel.app/",
-     
-   
+       
       },
   
   
@@ -72,10 +59,24 @@ export default function Projects() {
 
         // link: "https://busca-endereco-pelo-cep.vercel.app/",
      
-
       }, 
    
-  
+      {
+        title: "Sitema de Hotel",
+        description: "Bate papo",
+         image:
+        "https://i.ibb.co/mNN2hn5/Video-hotel.gif[/img][/url]",
+        link: "https://github.com/JacquelineCasali/One-Alura-Hotel",
+      }, 
+
+         {
+        title: "Api-Sistema-Medico",
+        description: "Bate papo",
+         image:
+         "https://i.ibb.co/P9qJygK/Video-2023-10-04-064647.gif",
+       
+        link: "https://github.com/JacquelineCasali/Api-Sistema-Medico-Java",
+      }, 
     ]
 
 
@@ -117,9 +118,9 @@ export default function Projects() {
                
                 <div className="flex justify-center mb-6">
                 <h3 className="mt-6 text-xl font-semibold text-green-500 no-underline hover:underline">
-                  <a href={project.link}>
+                  <a href={project.link} target="_blank">
                     <span className="absolute inset-0 " />
-                   Site {project.title}
+                  {project.title}
                   </a>
                 </h3>
                 {/* <div className="absolute right-0 -mt-[6px] h-3 w-full rounded-l-full bg-gradient-to-r from-green-700 to-green-400 md:w-full" />  */}
