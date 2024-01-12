@@ -77,6 +77,16 @@ export default function Projects() {
        
         link: "https://github.com/JacquelineCasali/Api-Sistema-Medico-Java",
       }, 
+
+      {
+        title: "E-commecer",
+        description: "Loja de informatica ",
+         image:
+          // "https://i.ibb.co/9tJRd3n/e-co.gif",
+          "https://i.ibb.co/ctHT3Rd/e-co1.gif",
+        
+        link: "https://e-commercer-ten.vercel.app/",
+      }, 
     ]
 
 
