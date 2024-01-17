@@ -13,16 +13,7 @@ export default function Projects() {
     },
     
   
-      {
-        title: "Cripto Moedas",
-        description: "Descrição do projeto 3",
-        image:
-        "https://i.ibb.co/PWKF6Cr/2023-08-01-144058.png[/img]"
-       
-        ,
-        link: "https://site-criptonoedas.vercel.app/",
-     
-      },
+   
     {
       title: "X-men",
       description: "Descrição do projeto 4",
@@ -32,6 +23,16 @@ export default function Projects() {
       ,
       link: "https://x-men-two.vercel.app/",
       
+    },
+    {
+      title: "Cripto Moedas",
+      description: "Descrição do projeto 3",
+      image:
+      "https://i.ibb.co/PWKF6Cr/2023-08-01-144058.png[/img]"
+     
+      ,
+      link: "https://site-criptonoedas.vercel.app/",
+   
     },
     {
       title: "Conversor de Moedas ",
@@ -52,15 +53,18 @@ export default function Projects() {
   
 
     {
-        title: "Chat",
-        description: "Bate papo",
-        image:
-        " https://i.ibb.co/kQqcZfx/V-deo-sem-t-tulo-Feito-com-o-Clipchamp.gif[/img][/url]" ,
-
-        // link: "https://busca-endereco-pelo-cep.vercel.app/",
-     
+        title: "CRUD de Lista de Estudante",
+        description: "Criar , Editar, ler e Deletar Cadastro",
+        image:"https://i.ibb.co/YdGjJ6F/Video-crud-de-estudante.gif[/img][/url]",
+        link: "https://lista-de-estudante-react-php.vercel.app/",
+      
       }, 
-   
+      {
+        title: "E-commecer",
+        description: "Loja de informatica ",
+         image:"https://i.ibb.co/ctHT3Rd/e-co1.gif",
+         link: "https://e-commercer-ten.vercel.app/",
+      }, 
       {
         title: "Sitema de Hotel",
         description: "Bate papo",
@@ -68,7 +72,7 @@ export default function Projects() {
         "https://i.ibb.co/mNN2hn5/Video-hotel.gif[/img][/url]",
         link: "https://github.com/JacquelineCasali/One-Alura-Hotel",
       }, 
-
+    
          {
         title: "Api-Sistema-Medico",
         description: "Bate papo",
@@ -77,16 +81,16 @@ export default function Projects() {
        
         link: "https://github.com/JacquelineCasali/Api-Sistema-Medico-Java",
       }, 
-
       {
-        title: "E-commecer",
-        description: "Loja de informatica ",
-         image:
-          // "https://i.ibb.co/9tJRd3n/e-co.gif",
-          "https://i.ibb.co/ctHT3Rd/e-co1.gif",
-        
-        link: "https://e-commercer-ten.vercel.app/",
-      }, 
+        title: "Api-Forum com login",
+        description: "Bate papo",
+         image:"https://i.ibb.co/kDqHq4D/Video-forum.gif[/img][/url]" ,
+
+       
+
+        link: "https://github.com/JacquelineCasali/One-Alura-Forum.git"
+      },
+   
     ]
 
 
