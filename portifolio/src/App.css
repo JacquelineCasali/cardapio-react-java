@@ -3,111 +3,21 @@
 @tailwind utilities;
 
 
-.nav-menu {
-    display: flex;
-
+/* formatacao da barra de rolagem */
+body::-webkit-scrollbar {
+  width: 12px;                /* largura da barra de rolagem */
+  background-color: #e5e7eb;
 }
 
-.nav-menu li {
-    padding: 0 1rem;
+body::-webkit-scrollbar-track {
+  background: #e5e7eb;           /* cor de fundo da barra de rolagem */
 }
 
-
-.hamburger {
-    display: none;
-    cursor: pointer;
+body::-webkit-scrollbar-thumb {
+  background-color: #4ade80;  /* cor do scroll (thumb) da barra de rolagem */
+  border-radius: 20px;        /* arredondar o scroll (thumb) */
+  border: 3px solid #bbf7d0;     /* criar um espaco em volta do scroll */
 }
-
-
-.btn {
-    padding: 14px 32px;
-    background-color: Green;
-    color: #fff;
-    border-radius: 24px 4px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    cursor: pointer;
-    margin: 20px 8px;
-   /* display: flex;
-  align-items: center; */
-}
-  
-  .btn a {
-    color: #fff;
-   
-  }
-  
-  .btn:hover {
-    box-shadow: rgb(0 0 0 / 25%) 0px 8px 24px;
-  
-  }
-  .btn:active  {
-  
-    color: black;
-  
-  }
-  
-  .footer a {
-    font-size: 2.0rem;
-    color: green;
-   
-  
-    text-decoration: none;
-    transition: ease-in-out; 
-    transition-delay:150ms
-   
-  }
-
-
-
-
-  /* .copyright{
- 
-    font-size: 1.2rem;
-text-align: center;
-  } */
-
-
-
-  @media screen and (max-width:480px) {
-.btn{
- font-size: 0.8rem;
-}
-  }
-@media screen and (max-width:1240px) {
-    .hamburger {
-        display: flex;
-    }
-
-    .nav-menu {
-        position: absolute;
-        flex-direction: column;
-        justify-content: start;
-        top: 90px;
-        right: -100%;
-        width: 50%;
-        height: 100vh;
-        transition: 0.4s;
-        z-index: 2;
-        background: #fff;
-        border-left: 1px solid #eee;
-    }
-
-    .nav-menu.active {
-        right: 0;
-    }
-
-    .nav-menu li {
-        padding: 1rem;
-        width: 100%;
-        border-bottom: 1px solid #eee;
-    }
-
-    .nav-menu a {
-        font-size: 1.2rem;
-        
-    }
-} 
 
 
 

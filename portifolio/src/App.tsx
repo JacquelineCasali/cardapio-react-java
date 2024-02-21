@@ -1,36 +1,23 @@
-
-import './App.css'
-import { Helmet, HelmetProvider } from "react-helmet-async"; // titulo da pagina
-import Hearder from './components/Hearder'
-import Banner from './components/Banner'
-import Projects from './components/Projects';
-import Linguguens from './components/Linguguens';
-import Footer from './components/Footer';
-import Contact from './components/Contact';
-
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Error from "./pages/Error";
 
 
 function App() {
-
-
   return (
-    <main>
-       <HelmetProvider>
-        <Helmet title="Portifolio" />
-      </HelmetProvider>
-
-
-     < Hearder/>
+    <>
+      <Router>
      
-      <Banner/>
-      <Projects/>
-<Linguguens/>
- <Contact/>
 
-<Footer/>
-  
-    </main>
-  )
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="*" element={<Error />}></Route>
+        </Routes>
+
+   
+      </Router>
+    </>
+  );
 }
 
-export default App
+export default App;
