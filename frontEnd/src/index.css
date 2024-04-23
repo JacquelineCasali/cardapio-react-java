@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  /* formatacao da barra de rolagem */
+  body::-webkit-scrollbar {
+    width: 12px;                /* largura da barra de rolagem */
+    background-color: gainsboro;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #222;           /* cor de fundo da barra de rolagem */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: gainsboro;  /* cor do scroll (thumb) da barra de rolagem */
+    border-radius: 20px;        /* arredondar o scroll (thumb) */
+    border: 2px solid #b71c1c;     /* criar um espaco em volta do scroll */
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: unset
+  }
+
+
+ 

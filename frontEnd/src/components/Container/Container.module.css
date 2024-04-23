@@ -1,0 +1,51 @@
+.container{
+	width: 100%;
+	min-height: 92vh;
+	/* background-color:#fff ; */
+	/* padding-bottom: 1.5rem; */
+	/* color: #fff; */
+	text-align: center;
+	 
+	  /* padding-inline: 1.0rem; */
+	  /* não aparece barra de rolagem */
+	
+	overflow: hidden;
+	padding-top: 68px;
+
+
+	}
+	/* @media (max-width: 380px) {
+		.container{
+			min-height: 91.4vh;
+		}
+	}
+
+	@media (max-width: 480px) {
+		.container{
+			min-height: 95.4vh;
+		}
+	}*/
+	  
+	
+	  /* @media screen and (max-width: 768px) {
+		.container{
+			min-height: 93vh;
+		}
+	  }
+	    */
+	
+ @media screen and (max-width: 1280px) {
+		.container{
+			min-height: 91.9vh;
+		}
+	  } 
+	
+	
+
+
+	@media screen and (min-width:1920px) {
+		.container{
+			min-height: 94.7vh;
+		}
+		  }
+		

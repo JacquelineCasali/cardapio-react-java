@@ -1,0 +1,21 @@
+.footer {
+	/* position: absolute; */
+	/* bottom: 0; */
+	height: 60px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: gainsboro;
+	color: #b71c1c;
+	border-top: 2px solid #b71c1c;
+	padding-block: 0.5rem;
+}
+
+.footer h2 {
+	font-size: 1rem;
+	font-weight: 500;
+  margin-bottom: 0;
+}
+
+

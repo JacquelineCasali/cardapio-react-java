@@ -1,0 +1,24 @@
+.container{
+	width: 100%;
+	min-height: 74.6vh;
+	background-color:#fff ;
+	padding-top: 180px;
+	}
+.error{
+	display: flex;
+	font-size: 80px;
+	color:brown;
+	font-weight: 700;
+flex-direction: column;
+}
+strong{
+font-size: 25px;	
+color:brown;
+font-weight: bold;
+}
+	@media screen and (min-width:1920px) {
+		.container{
+			min-height: 83.3vh;
+		}
+		  }
+		

@@ -1,34 +1,52 @@
-# Projeto desenvolvido com
+## Projeto desenvolvido com 
+React Java e Mysql
+Cardápio .
 
-Este Projeto é meu portifólio
+O aplicativo ou sistema web deve possuir funcionalidades que permitam o cadastro, editar , ler os itens no cardápio.
 
-## Imgem e Video
+Esse projeto é o desenvolvimento de um FullStack com React e Java.
 
-![Video_2023-09-08_164223](./Video_2023-09-08_164223.gif)
-## Site do Projeto
-
-
+## Imagem do Projeto
+![Video_2024-03-19_143950](./Video_2024-03-19_143950.gif)
 
 ## Repositorio do Projeto
+git clone https://github.com/JacquelineCasali/cardapio-react-java.git
 
-https://github.com/JacquelineCasali/portifolio.git
+## Para clonar o projeto
+https://github.com/JacquelineCasali/cardapio-react-java.git
 
-## Instalação
+Seleciona o botão code vai na opção Download ZIP
 
-## FRONTEND
+## Rodar o Projeto no FrontEnd 
 
-1. `$ cd portifolio`
-2. `$ npm install`
-3. `$ npm run dev`
+$ cd frontEnd
+$ npm install
+$ npm run dev
 
-## Bibliotecas Usadas
+## ⚙️ Funcionalidades
 
-## FRONTEND
+- [x] CRUD de comida;
 
--- `React.js`
--- `vite.js`
--- `TypeScript`
--- `Tailwind`
+## 🛠 Tecnologias utilizadas
+
+- **[Java 17]**
+- **[Spring Boot 3]**
+- **[Maven]**
+- **[MySQL]**
+- **[Lombok]**
+- **[MySql]**
+- **[Xampp]**
+
+## Para Clonar o projeto na parte de Back-end
+https://github.com/JacquelineCasali/back-end-cardapio-java.git
 
 
+# 📁 Acessar a aplicação do Back-end
 
+##### Enquanto o servidor está ligado, acesse o navegador e entre no endereço abaixo
+http://localhost:8080/swagger-ui/index.html
+
+
+## 📝 Licença
+
+Projeto desenvolvido por CasaliTech.

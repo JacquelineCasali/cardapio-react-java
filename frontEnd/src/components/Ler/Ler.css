@@ -1,0 +1,83 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+  
+    
+}
+
+.titulo{
+    display: inline-block;
+    padding: 130px  0 50px  0;
+  }
+  /* .h2{
+    margin:   0 0  5px 0;
+   
+  } */
+
+  
+  a:link {
+    text-decoration: none;
+    color: unset
+  }
+
+ 
+.card-ler {
+    display: flex;
+   
+
+    margin-top: 20px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0;
+}
+
+.card img {
+    border-radius: 8px 8px 0 0;
+    width: 250px;
+    height: 200px;
+}
+
+
+.teste{
+
+    padding: 0 0   10px 0  ;
+
+}
+
+.link{
+  display: flex;
+  margin-top: 20px;
+
+}
+
+
+.btn-editar {
+    background-color: #0275d8;
+    color: white;
+    font-weight: bold;
+    /* position: fixed; */
+    bottom: 100px;
+    /* right: 24px; */
+    transition: all 0.1s linear 0.1s;
+    /* width: 40%; */
+    padding: 10px 15px;
+    border-radius: 20px;
+  font-size: 18px;
+  /* display: flex; */
+  /* margin-left: 600px; */
+}
+  
+.button:hover {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 7px 0px;
+    transform: scale(1.1);
+}
