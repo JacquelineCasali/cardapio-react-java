@@ -7,7 +7,7 @@ O aplicativo ou sistema web deve possuir funcionalidades que permitam o cadastro
 Esse projeto é o desenvolvimento de um FullStack com React e Java.
 
 ## Imagem do Projeto
-![Video_2024-03-19_143950](./Video_2024-03-19_143950.gif)
+![cardapio](/cardapio.gif)
 
 ## Repositorio do Projeto
 git clone https://github.com/JacquelineCasali/cardapio-react-java.git

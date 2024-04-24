@@ -22,7 +22,7 @@ export default function LerCard() {
 
   return (
     <div className="container">
-      <div className="titulo">
+      <div className="tituloler">
 
    <h2 className="h2">Detalhe Cardápio</h2>
       </div>
